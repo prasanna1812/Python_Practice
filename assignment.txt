@@ -1,0 +1,67 @@
+
+1. Given a number n, find the product of all factors of n.
+	Input : 20
+	Output : 1*2*4*5*10 = 400
+
+
+2. Integers X and K are given. The task is to find largest K-digit number divisible by X.
+    (Hint - Use max function)
+	Input : X = 83, K = 5
+	Output : 99932 is the largest 5 digit number that is divisible by 83.
+
+
+3. Integers X and K are given. The task is to find smallest K-digit number divisible by X.
+   (Hint - Use min function)
+	Input : X = 83, K = 5
+	Output : 10043 is the smallest 5 digit number that is divisible by 83.
+
+
+4. Given a string of lowercase characters from ‘a’ – ‘z’.
+   We need to write a program to print the characters of this string in sorted order.
+	Input : 'python'
+	output: 'hnopty'
+
+5. Given an list with N elements, task is to find the count of factors of a number X
+   which is product of all list elements.
+	Input : 3 5 7
+	Output : 8
+	3 * 5 * 7 = 105, the factors of 105 are 1,
+	3, 5, 7, 15, 21, 35, 105 whose count is 8
+
+
+6. Given a list, find the difference between highest occurrence and least occurrence of any number in a list
+	Examples:
+	Input : [7, 8, 4, 2, 4, 4, 1, 1, 7, 7, 2, 5]
+	Lowest occurring element (5) occurs once.
+	Highest occurring element (7) occurs 3 times
+	In case of tie take lower number
+
+7. We are given a 2D list of order N X M and a column number K ( 1<=K<=m).
+   Our task is to sort the 2D list according to values in the Column K.
+    Examples:
+	Input : If our 2D list is given as (Order 4X4) 
+		39 27 11 42 
+		10 93 91 90 
+		54 78 56 89 
+		24 64 20 65
+	Sorting it by values in column 3 
+	Output :    
+		39 27 11 42 
+		24 64 20 65 
+		54 78 56 89 
+		10 93 91 90
+
+8. Print the following pattern (for length n)
+	1
+	2 2
+	3 3 3
+	4 4 4 4
+	5 5 5 5 5
+
+
+9.	Write a function to check if the input number is prime or not
+
+10. Write a Python program to add 'ing' at the end of a given string (length should be at least 3).
+	If the given string is already ends with 'ing' then add 'ly' instead.
+	If the string length of the given string is less than 3, leave it unchanged 
+	
